@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VerifyLandingOnProjPage"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="191.334">
+  <properties />
+  
+            <testcase name="verifyLandingOnProjPage" time="0.0" classname="com.uat.suite.tm_project.VerifyLandingOnProjPage">
+          <skipped />
+    </testcase>
+  
+            <testcase name="verifyLandingOnProjPage" time="65.716" classname="com.uat.suite.tm_project.VerifyLandingOnProjPage" />
+                <testcase name="verifyLandingOnProjPage" time="65.367" classname="com.uat.suite.tm_project.VerifyLandingOnProjPage" />
+                <testcase name="verifyLandingOnProjPage" time="60.246" classname="com.uat.suite.tm_project.VerifyLandingOnProjPage" />
+      
+</testsuite>

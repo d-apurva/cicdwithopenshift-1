@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TM_Project Suite]">
+  <listeners>
+    <listener class-name="com.uat.listener.TestsListenerAdapter"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="VerifyLogin(failed)">
+    <classes>
+      <class name="com.uat.TestCases.VerifyLoginFucntionality">
+        <methods>
+          <include name="CloseDriver"/>
+          <include name="verifyValidLogin" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.uat.TestCases.VerifyLoginFucntionality -->
+    </classes>
+  </test> <!-- VerifyLogin(failed) -->
+</suite> <!-- Failed suite [TM_Project Suite] -->

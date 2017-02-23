@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TM_Project Suite">
+<listeners>
+    	<listener class-name="com.uat.listener.TestsListenerAdapter" />
+       	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+       	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+
+<!-- <test name="VerifyLandingOnProjPage">
+    <classes>
+        <class name="com.uat.suite.tm_project.VerifyLandingOnProjPage" ></class>  
+    </classes>
+</test>
+
+
+ <test name="Tester_TMnStakeDashDisabled">
+    <classes>
+        <class name="com.uat.suite.tm_project.Tester_TMnStakeDashDisabled" ></class>  
+    </classes>
+</test>
+
+
+<test name="VerifyTMTabHighlighted">
+    <classes>
+        <class name="com.uat.suite.tm_project.VerifyTMTabHighlighted" ></class>  
+    </classes>
+</test>
+
+<test name="VerifyFieldsForCreNewProj">
+    <classes>
+        <class name="com.uat.suite.tm_project.VerifyFieldsForCreNewProj" ></class>  
+    </classes>
+</test>
+ -->
+ <test name="VerifyLogin">
+    <classes>
+        <class name="com.uat.TestCases.VerifyLoginFucntionality" ></class>  
+    </classes>
+</test>
+
+</suite>

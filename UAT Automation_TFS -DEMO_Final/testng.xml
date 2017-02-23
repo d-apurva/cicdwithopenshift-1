@@ -1,0 +1,14 @@
+<suite name=" UAT Automation suite">
+<listeners>
+    	<listener class-name="com.uat.listener.TestsListenerAdapter" />
+       	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+       	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+  
+<suite-files>   
+
+  	<suite-file path="./TM_Project Suite.xml" />  
+
+</suite-files>
+   
+</suite>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" UAT Automation suite" duration-ms="0" started-at="2017-02-21T12:36:09Z" finished-at="2017-02-21T12:36:09Z">
+    <groups>
+    </groups>
+  </suite> <!--  UAT Automation suite -->
+  <suite name="TM_Project Suite" duration-ms="15922" started-at="2017-02-21T12:35:53Z" finished-at="2017-02-21T12:36:08Z">
+    <groups>
+    </groups>
+    <test name="VerifyLogin" duration-ms="15922" started-at="2017-02-21T12:35:53Z" finished-at="2017-02-21T12:36:08Z">
+      <class name="com.uat.TestCases.VerifyLoginFucntionality">
+        <test-method status="PASS" signature="verifyValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@7770f470]" name="verifyValidLogin" duration-ms="7940" started-at="2017-02-21T18:05:53Z" data-provider="getTestData" finished-at="2017-02-21T18:06:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo@click2cloud.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@7770f470]" name="CloseDriver" is-config="true" duration-ms="852" started-at="2017-02-21T18:06:00Z" finished-at="2017-02-21T18:06:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="FAIL" signature="verifyValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@7770f470]" name="verifyValidLogin" duration-ms="6415" started-at="2017-02-21T18:06:01Z" data-provider="getTestData" finished-at="2017-02-21T18:06:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestManagement]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [TestManagement] but found [Test Management]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [TestManagement] but found [Test Management]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.uat.TestCases.VerifyLoginFucntionality.verifyValidLogin(VerifyLoginFucntionality.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1211)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@7770f470]" name="CloseDriver" is-config="true" duration-ms="684" started-at="2017-02-21T18:06:08Z" finished-at="2017-02-21T18:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- com.uat.TestCases.VerifyLoginFucntionality -->
+    </test> <!-- VerifyLogin -->
+  </suite> <!-- TM_Project Suite -->
+</testng-results>
